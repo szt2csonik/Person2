@@ -11,7 +11,10 @@ public class Person {
     public void getGoal(){
         System.out.println("My goal is: Live for the moment!");
     }
-    public void introdice(){
+    public void introduce(){
+        _name="Jane Doe";
+        _age=30;
+        _gender="female";
         System.out.println("Hi, I'm "+_name+", a "+_age+" year old "+_gender);
     }
 
